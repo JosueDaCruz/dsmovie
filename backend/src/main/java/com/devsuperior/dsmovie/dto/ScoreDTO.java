@@ -9,11 +9,11 @@ public class ScoreDTO {
 	public ScoreDTO() {
 	}
 
-	public Long getMovieid() {
+	public Long getMovieId() {
 		return movieId;
 	}
 
-	public void setMovieid(Long movieId) {
+	public void setMovieId(Long movieId) {
 		this.movieId = movieId;
 	}
 
@@ -31,11 +31,6 @@ public class ScoreDTO {
 
 	public void setScore(Double score) {
 		this.score = score;
-	}
-
-	public Long getMovieId() {
-		// TODO Auto-generated method stub
-		return null;
 	}
 
 }
